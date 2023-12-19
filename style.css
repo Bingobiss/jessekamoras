@@ -7,7 +7,7 @@ a.navbar-brand{
 }
 
 img.logo {
-    width: 15%;
+    width: 25%;
     height: auto;
 }
 
@@ -67,10 +67,16 @@ img.presentation {
     background-size: cover;
   }
 
+  div.qui_sommes img {
+    width: 60%;
+    height: auto;
+    position: absolute;
+  }
+
 .qui_sommes {
     height: auto;
     max-width: 100%;
-    background-color: rgb(248, 215, 218);
+    background-color: rgba(248, 215, 218, 0.5);
     background: 0.5;
     font-size: 20px;
     padding: 60px 20px 60px 20px;
@@ -95,7 +101,7 @@ p.urgence {
 }
 
 .titre {
-    background-color: rgb(248, 215, 218) ;
+    background-color: rgba(248, 215, 218, 0.75);
     padding: 10px;
     font-size: 2em;
     transform: translateY(100px);

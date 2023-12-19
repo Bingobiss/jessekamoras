@@ -7,7 +7,7 @@ a.navbar-brand{
 }
 
 img.logo {
-    width: 25%;
+    width: 30%;
     height: auto;
 }
 
@@ -23,6 +23,10 @@ img.presentation {
 #main_content {
     background-image: url('photos/background.jpg');
     background-size: 100% auto;
+}
+
+.double {
+  font-size: 2em;
 }
 
 .parallax {
@@ -55,7 +59,7 @@ img.presentation {
 
   .parallax3 {
     /* The image used */
-    background-image: url("photos/plante.jpg");
+    background-image: url("photos/compte.jpg");
   
     /* Set a specific height */
     min-height: 400px; 
@@ -75,16 +79,17 @@ img.presentation {
 
 .qui_sommes {
     height: auto;
-    max-width: 100%;
+    width: 100%;
     background-color: rgba(248, 215, 218, 0.5);
     background: 0.5;
     font-size: 20px;
     padding: 60px 20px 60px 20px;
+    position: relative;
 }
 
 .qui_sommes2 {
     height: auto;
-    background-color: rgb(248, 215, 218);
+    background-color: rgba(248, 215, 218, 0.5);
     font-size: 20px;
     padding: 60px 20px 60px 20px;
 }
@@ -111,9 +116,13 @@ p.urgence {
 .custom-tooltip {
     position: relative;
   }
+
+  .tarif_horaire {
+    font-size: 3rem;
+  }
   
   .custom-tooltip::after {
-    content: "Ceci est une bulle d'info personnalisée dans laquelle nous pouvons entrer les informations par rapport à la tarification et les thpes de forfaits";
+    content: "Ceci est une bulle d'info personnalisée dans laquelle nous pouvons entrer les informations par rapport à la tarification et les types de forfaits";
     position: absolute;
     bottom: 100%;
     left: -100%;

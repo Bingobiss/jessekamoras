@@ -10,6 +10,11 @@ a.navbar-brand{
     width: 10%;
 }
 
+a.nav-link:hover {
+  color: rgba(96, 150, 186, 1);
+}
+
+
 nav.navbar {
   background-color: rgb(39, 76, 119);
 }
@@ -41,7 +46,7 @@ img.presentation {
     background-size: 100% auto;
 }
 
-.double {
+a.double {
   font-size: 2em;
 }
 
@@ -260,7 +265,7 @@ p.urgence {
   display: inline-block;
 }
 .snip1404 .plan-select a:hover {
-  background-color: #552a3f;
+  background-color: rgba(96, 150, 186, 1);
 }
 .snip1404 .featured {
   margin-top: -10px;

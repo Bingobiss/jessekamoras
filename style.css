@@ -6,6 +6,11 @@ h1#accueil {
     background-color: rgba(231, 236, 239, 0.3);
 }
 
+#validite {
+  text-align: center;
+  margin-top: 5px;
+}
+
 a.navbar-brand{
     width: 10%;
 }
@@ -179,7 +184,7 @@ p.urgence {
 }
 .snip1404 .plan {
   margin: 0;
-  height: 300px;
+  height: 350px;
   position: relative;
   float: left;
   overflow: hidden;
